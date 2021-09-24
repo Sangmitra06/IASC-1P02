@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+
+  }
+  .greentext{
+  color:green;
+  font-weight: bold;
+  text-align:center;
+}
+.orangetext{
+  color:orange;
+
+}
+.purpletext{
+  color:purple;
+  text-align: right;
+}
+.redsuper{
+  color:red;
+  vertical-align: super;
+
+}
+.yellowcaps{
+  color: yellow;
+  text-transform: uppercase;
+  font-style: italic;
+}
