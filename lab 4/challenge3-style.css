@@ -1,0 +1,21 @@
+#div1{
+  background: green;
+  padding:0px 10px 0px 10px;
+}
+#div2{
+  border: black dotted 4px;
+  padding:10px 3px 10px 10px;
+
+}
+#p1{
+  color:red;
+  font-size: 13px;
+}
+#p2{
+  color: darkgreen;
+  font-size: 13px;
+}
+#p3{
+  color:purple;
+  font-size: 13px;
+}

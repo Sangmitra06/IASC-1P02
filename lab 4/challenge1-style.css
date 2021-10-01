@@ -1,0 +1,19 @@
+#mainwrapper{
+  background: blue;
+  margin:0px 3% 10px 3%;
+  padding:10% 10% 20% 10%;
+}
+
+#wrapper{
+  border: black solid 3px;
+}
+p{
+  margin:2%;
+  border: grey 1px dashed;
+  padding:2%;
+  color:red;
+}
+img{
+  border: white 1px dashed;
+  padding:2%;
+}
