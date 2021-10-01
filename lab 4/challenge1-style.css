@@ -16,4 +16,6 @@ p{
 img{
   border: white 1px dashed;
   padding:2%;
+  height: 200px;
+  width: 150px;
 }
