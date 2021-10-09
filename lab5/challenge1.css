@@ -1,0 +1,31 @@
+body{
+  margin:10px 0px 40px 0px;
+}
+
+#wrapper{
+  color:white;
+  height:620px;
+}
+
+#header{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: red;
+  text-align: center;
+  height:50px;
+  font-size: 15px;
+}
+
+#leftbody{
+  padding-top: 10px;
+  background-color: green;
+  height:490px;
+  font-size:10px;
+}
+
+#footer{
+  padding-top: 10px;
+  height:40px;
+  background-color: blue;
+  font-size:10px;
+}

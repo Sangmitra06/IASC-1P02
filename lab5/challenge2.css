@@ -1,0 +1,44 @@
+body{
+  color:black;
+  background-color: green;
+  font-weight: bold;
+}
+
+#wrapper{
+  width:750px;
+  margin:0 auto;
+  background-color: blue;
+}
+
+#header{
+  background-color: red;
+  height:70px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#leftbody{
+  background-color: pink;
+  height:50px;
+  width:150px;
+  float:left;
+  padding-top: 10px;
+}
+
+#rightbody{
+  background-color: orange;
+  height:50px;
+  width:600px;
+  float:right;
+  padding-top: 10px;
+}
+
+#content{
+  height:500px;
+  clear:both;
+}
+
+#footer{
+  background-color: yellow;
+  height:30px;
+}

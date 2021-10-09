@@ -1,0 +1,40 @@
+body{
+  margin:10px 10px 0px 10px;
+}
+
+#wrapper{
+  background-color: green;
+  height:1000px;
+}
+
+#content1{
+  position: absolute;
+  top:4%;
+  left:16%;
+  height:30%;
+  width:20%;
+  background-color: blue;
+  float:left;
+  padding-top: 2%;
+}
+
+#content2{
+  position: absolute;
+  top:4%;
+  right:16%;
+  height:30%;
+  width:20%;
+  background-color: red;
+  float:right;
+  padding-top: 2%;
+}
+
+#content3{
+  position: absolute;
+  top:38%;
+  left:40%;
+  height:32%;
+  width:20%;
+  background-color: yellow;
+  clear:both;
+}
