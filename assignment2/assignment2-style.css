@@ -1,0 +1,58 @@
+#wrapper{
+  height:3500px;
+  margin: 0 auto;
+  width:1000px;
+}
+.redText{
+  color:red;
+}
+.imgColor{
+  margin:10px;
+  border: solid black 2px;
+  padding: 5px;
+  height:5px;
+  width:50px;
+}
+#header{
+  height:70px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#content{
+  height:1604px;
+}
+#footer{
+  height:60px;
+  text-align:center;
+  position: fixed;
+  bottom: 0px;
+}
+.imgArtist{
+  height:300px;
+  width:300px;
+}
+.text{
+  font-size: 18px;
+  font-family:  "Lucida Console", "Courier New", monospace;
+  text-transform: uppercase;
+}
+.imgArtist2{
+  height:400px;
+  width:400px;
+  position: relative;
+  left:300px;
+  margin:auto;
+  border: solid black 6px;
+  padding:5px;
+
+}
+.textAnchor{
+  position:absolute;
+  left:800px;
+}
+#content h2{
+  font-style: italic;
+}
+h1,#header{
+  text-align: center;
+}
