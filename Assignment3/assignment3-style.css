@@ -1,0 +1,241 @@
+#wrapper{
+  height:1978px;
+  margin: 0 auto;
+  width:860px;
+}
+#header1{
+  height:40px;
+  width:860px;
+  font-size:30px;
+  text-transform:uppercase;
+  font-weight: bold;
+  text-align: center;
+  background-color:#6E2C00;
+  color:white;
+  font-family:"Lucida Handwriting",cursive;
+}
+#navigationMenu{
+  width:860px;
+  height:40px;
+}
+#header2{
+  height:36px;
+  width:426px;
+  background-color:#DC5008;
+  float:left;
+  color:white;
+  border:2px solid black;
+  font-size:16px;
+  text-transform:capitalize;
+  font-weight: bold;
+  text-align: center;
+  font-family:"Georgia",sans-serif;
+}
+#header3{
+  height:36px;
+  width:426px;
+  background-color:#DC5008;
+  float:right;
+  color:white;
+  font-size:16px;
+  border:2px solid black;
+  text-transform:capitalize;
+  font-weight: bold;
+  text-align: center;
+  font-family:"Georgia",sans-serif;
+}
+#content{
+  width:860px;
+  height:1824px;
+  clear:both;
+}
+#mainContent{
+  width:612px;
+  height:1824px;
+  background-color:#F0B27A;
+  /*position: relative;
+  left:248px;*/
+  float:right;
+  color: white;
+  font-family:"Georgia",sans-serif;
+  font-size: 15px;
+  text-align:left;
+}
+#disclaimerBox{
+  width:363px;
+  height:45px;
+  background-color:#A04000;
+  position:relative;
+  top:20px;
+  left:124.5px;
+}
+#introBox{
+  width:481px;
+  height:45px;
+  background-color:#A04000;
+  position:relative;
+  top:40px;
+  left:65.5px;
+}
+#text1{
+  width:481px;
+  height:244px;
+  background-color:#6E2C00;
+  position:relative;
+  top:60px;
+  left:65.5px;
+
+}
+#text2{
+  width:481px;
+  height:244px;
+  background-color:#6E2C00;
+  position:relative;
+  top:80px;
+  left:65.5px;
+}
+#text3{
+  width:481px;
+  height:244px;
+  background-color:#6E2C00;
+  position:relative;
+  top:100px;
+  left:65.5px;
+}
+#text4{
+  width:481px;
+  height:244px;
+  background-color:#6E2C00;
+  position:relative;
+  top:120px;
+  left:65.5px;
+}
+#text5{
+  width:481px;
+  height:244px;
+  background-color:#6E2C00;
+  position:relative;
+  top:140px;
+  left:65.5px;
+}
+#text6{
+  width:481px;
+  height:244px;
+  background-color:#6E2C00;
+  position:relative;
+  top:160px;
+  left:65.5px;
+}
+#creditsBox{
+  width:481px;
+  height:40px;
+  background-color:#6E2C00;
+  position:relative;
+  top:180px;
+  left:65.5px;
+}
+#navigation{
+  width:248px;
+  height:1824px;
+  background-color:#6E2C00;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  font-family:"Georgia",sans-serif;
+  color:black;
+}
+
+#navigationButton1{
+  width:214px;
+  height:45px;
+  background-color:#F39C12;
+  position:relative;
+  top:20px;
+  left:15.5px;
+  border:2px solid black;
+}
+#navigationBox1{
+  width:214px;
+  height:435px;
+  background-color:#F39C12;
+  position:relative;
+  top:40px;
+  left:17.5px;
+}
+#navigationBox2{
+  width:214px;
+  height:435px;
+  background-color:#F39C12;
+  position:relative;
+  top:60px;
+  left:17.5px;
+}
+#navigationBox3{
+  width:214px;
+  height:435px;
+  background-color:#F39C12;
+  position:relative;
+  top:80px;
+  left:17.5px;
+}
+#navigationButton2{
+  width:214px;
+  height:45px;
+  background-color:#F39C12;
+  position:relative;
+  top:100px;
+  left:15.5px;
+  border:2px solid black;
+}
+#navigationButton3{
+  width:214px;
+  height:45px;
+  background-color:#F39C12;
+  position:relative;
+  top:120px;
+  left:15.5px;
+  border:2px solid black;
+}
+#navigationButton4{
+  width:214px;
+  height:45px;
+  background-color:#F39C12;
+  position:relative;
+  top:140px;
+  left:15.5px;
+  border:2px solid black;
+}
+#navigationButton5{
+  width:214px;
+  height:45px;
+  background-color:#F39C12;
+  position:relative;
+  top:160px;
+  left:15.5px;
+  border:2px solid black;
+}
+#navigationButton6{
+  width:214px;
+  height:45px;
+  background-color:#F39C12;
+  position:relative;
+  top:180px;
+  left:15.5px;
+  border:2px solid black;
+}
+#footer{
+  width:860px;
+  height:74px;
+  background-color: #A04000;
+  color: white;
+  font-family:"Georgia",sans-serif;
+  font-size: 15px;
+  text-align: left;
+  clear:both;
+}
+img{
+  height:123px;
+  width:120px;
+  padding:5px;
+}
