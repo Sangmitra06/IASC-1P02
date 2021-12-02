@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+#header{
+  /*height:88px;
+  width:1621px;*/
+  padding:10px;
+  background-color: #22450E;
+  /*position: relative;*/
+  font-family: 'Brush Script MT', cursive;
+  font-size:60px;
+  color: #BACC99/*#558C47*/;
+  text-align: center;
+}
+.navTop{
+  overflow:hidden;
+  background-color: #D8D1B7;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navTop a {
+  float:left;
+  display:block;
+  color:#223115;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+.navTop a:hover {
+  background-color: #9A9789;
+  color:black;
+}
+/* Ensure proper sizing */
+
+
+/* Column container */
+#wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+#navigationBar{
+  flex: 15%; /* Set the width of the sidebar */
+  background-color: #BACC99; /* Grey background color */
+  padding: 20px; /* Some padding */
+  font-size: 20px;
+  font-weight: bold;
+  color:#223115;
+}
+
+/* Main column */
+#content{
+  flex: 85%; /* Set the width of the main content */
+  background-color:#EAF1D1 ; /* White background color */
+  padding: 20px; /* Some padding */
+  font-size: 18px;
+  color:#223115;
+}
+/*
+{
+  float:left;
+  width:15%;
+  height:1500px;
+  background-color: #BACC99/*#CBE8BB A9CA96;
+
+
+
+}
+
+.align{
+
+  padding:20px;
+
+}
+#{
+  float:right;
+  width:85%;
+  background-color: #EAF1D1;
+  height:1500px;
+  font-size: 18px;
+  color:#223115;
+
+}*/
+.textAlignHeading{
+  /*position:relative;
+  left:20px;*/
+  font-weight:bold;
+
+}
+.textAlignContent{
+  /*position:relative;
+  left:20px;*/
+  font-size:18px;
+}
+.navigationAlign{
+  padding:20px;
+
+}
+.img2{
+  height:450px;
+  width:100%;
+}
+.img1{
+  height:30%;
+  width:30%;
+  border:solid 2px #22450E;
+}
+.img3{
+  height: 300px;
+  width:32%;
+  border:solid 2px #22450E;
+}
+.center {
+  display: block;
+  margin:0 auto;
+
+}
+.button{
+background-color: #EAF1D1;
+color:black;
+border:2px solid #22450E;
+padding:10px;
+border-radius: 12px;
+transition-duration: 0.4s;
+width:80px;
+font-size: 15px;
+}
+.button:hover {
+background-color: #22450E; /* Green */
+color: white;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #EAF1D1/*#eee*/;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #95B27D/*#ccc*/;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #22450E;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+hr{
+  border: 2px solid #22450E;
+  border-radius: 5px;
+
+}
+#numIncrease{
+  padding:0% 50% 0% 50%;
+  font-size: 30px;
+  font-weight:bold;
+  display: block;
+  margin:0 auto;
+}
+h2{
+  text-align: center;
+}
+#email,#message{
+  position:relative;
+  left:1%;
+  font-size:15px;
+
+}
+.link{
+  text-decoration: none;
+  color:#223115;
+  font-size:17px;
+
+}
+a:hover{
+  color: #9A9789;
+}
