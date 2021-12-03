@@ -1,7 +1,7 @@
 var i=0;
 function checkButton(){
   if(document.getElementById('amazon').checked){
-    window.location.href="amazon.html" ;
+    window.location="amazon.html" ;
   }
   else if(document.getElementById('australia').checked){
     window.location="australia.html" ;
@@ -21,7 +21,6 @@ function increase(){
   document.getElementById('numIncrease').innerHTML=i;
 }
 setInterval('increase()',1000);
-
 function confirm(){
   if(document.getElementById('email').value==""){
     alert("Please enter an email");
@@ -29,7 +28,5 @@ function confirm(){
   else{
     document.getElementById('message').value="Want to send another query?";
     alert("Sent!");
-
   }
-
 }

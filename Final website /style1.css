@@ -1,17 +1,13 @@
-* {
-  box-sizing: border-box;
-}
+
 #header{
-  /*height:88px;
-  width:1621px;*/
   padding:10px;
   background-color: #22450E;
-  /*position: relative;*/
   font-family: 'Brush Script MT', cursive;
   font-size:60px;
-  color: #BACC99/*#558C47*/;
+  color: #BACC99;
   text-align: center;
 }
+/* w3schools.(n.d).Retrieved November 1, 2021, from https://www.w3schools.com/css/css_website_layout.asp */
 .navTop{
   overflow:hidden;
   background-color: #D8D1B7;
@@ -30,68 +26,37 @@
   background-color: #9A9789;
   color:black;
 }
-/* Ensure proper sizing */
-
-
-/* Column container */
+/* w3schools.(n.d.).Retrieved November 1, 2021, from https://www.w3schools.com/howto/howto_make_a_website.asp */
+* {
+  box-sizing: border-box;
+}
 #wrapper{
   display: flex;
   flex-wrap: wrap;
 }
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
 #navigationBar{
-  flex: 15%; /* Set the width of the sidebar */
-  background-color: #BACC99; /* Grey background color */
-  padding: 20px; /* Some padding */
+  flex: 15%;
+  background-color: #BACC99;
+  padding: 20px;
   font-size: 20px;
   font-weight: bold;
   color:#223115;
 }
 
-/* Main column */
 #content{
-  flex: 85%; /* Set the width of the main content */
-  background-color:#EAF1D1 ; /* White background color */
-  padding: 20px; /* Some padding */
+  flex: 85%;
+  background-color:#EAF1D1 ;
+  padding: 20px;
   font-size: 18px;
   color:#223115;
 }
-/*
-{
-  float:left;
-  width:15%;
-  height:1500px;
-  background-color: #BACC99/*#CBE8BB A9CA96;
 
-
-
-}
-
-.align{
-
-  padding:20px;
-
-}
-#{
-  float:right;
-  width:85%;
-  background-color: #EAF1D1;
-  height:1500px;
-  font-size: 18px;
-  color:#223115;
-
-}*/
 .textAlignHeading{
-  /*position:relative;
-  left:20px;*/
   font-weight:bold;
 
 }
 .textAlignContent{
-  /*position:relative;
-  left:20px;*/
+
   font-size:18px;
 }
 .navigationAlign{
@@ -115,7 +80,7 @@
 .center {
   display: block;
   margin:0 auto;
-
+/* w3schools.(n.d).Retrieved November 2, 2021, from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
 }
 .button{
 background-color: #EAF1D1;
@@ -149,48 +114,40 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   -ms-user-select: none;
   user-select: none;
 }
+/* w3schools.(n.d.).Retrieved November 1, 2021, from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
 
-/* Hide the browser's default radio button */
 .container input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-/* Create a custom radio button */
 .checkmark {
   position: absolute;
   top: 0;
   left: 0;
   height: 22px;
   width: 22px;
-  background-color: #EAF1D1/*#eee*/;
+  background-color: #EAF1D1;
   border-radius: 50%;
 }
 
-/* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: #95B27D/*#ccc*/;
+  background-color: #95B27D;
 }
 
-/* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
   background-color: #22450E;
 }
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
-
-/* Show the indicator (dot/circle) when checked */
 .container input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* Style the indicator (dot/circle) */
 .container .checkmark:after {
  	top: 9px;
 	left: 9px;
@@ -224,8 +181,14 @@ h2{
   text-decoration: none;
   color:#223115;
   font-size:17px;
-
 }
 a:hover{
   color: #9A9789;
+}
+#footer{
+  padding:1px 15px 1px 15px;;
+  background: #22450E;
+  font-size:15px;
+  color: #BACC99;
+  font-style: italic;
 }
