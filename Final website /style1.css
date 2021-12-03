@@ -192,3 +192,6 @@ a:hover{
   color: #BACC99;
   font-style: italic;
 }
+textarea, input{
+  font-family: 'Times New Roman', serif;
+}
